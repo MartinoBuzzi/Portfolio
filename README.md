@@ -115,7 +115,7 @@ Sono interessato a opportunità in cui poter combinare:
 * progettazione UX;
 * comunicazione digitale;
 * innovazione tecnologica;
-* Conoscenza e sviluppo di soluzion icon l'IA.
+* Conoscenza e sviluppo di soluzioni con l'IA.
 
 L'obiettivo è contribuire alla creazione di prodotti digitali funzionali, accessibili e centrati sulle persone.
 
