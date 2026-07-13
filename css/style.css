@@ -173,3 +173,23 @@ flex-direction:column;
 
 
 }
+
+/*cv button */
+.cv-button {
+
+    background-color: transparent;
+
+    color: #2563eb;
+
+    border: 2px solid #2563eb;
+
+}
+
+
+.cv-button:hover {
+
+    background-color: #2563eb;
+
+    color: white;
+
+}
