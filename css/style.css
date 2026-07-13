@@ -93,7 +93,7 @@
     #a78bfa
     );
 
-    -webkit-background-clip:text;
+    -webkit-background-origin:text;
 
     color:transparent;
 
