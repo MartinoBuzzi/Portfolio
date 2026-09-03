@@ -20,7 +20,7 @@
     --font-mono: "IBM Plex Mono", monospace;
 
     --max-width: 1120px;
-    --section-padding: 120px 32px;
+    --section-padding: 72px 32px;
 }
 
 * {
@@ -387,7 +387,7 @@ h1, h2, h3 {
 
 .projects-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 24px;
 }
 
@@ -395,12 +395,19 @@ h1, h2, h3 {
     border: 1px solid var(--border-on-ink);
     border-radius: 6px;
     padding: 32px 28px;
+    display: flex;
     transition: transform 0.25s ease, border-color 0.25s ease;
 }
 
 .project-card:hover {
     transform: translateY(-6px);
     border-color: var(--signal);
+}
+
+.project-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .project-content h3 {
@@ -412,6 +419,19 @@ h1, h2, h3 {
     color: var(--text-on-ink-muted);
     font-size: 0.95rem;
     margin-bottom: 20px;
+}
+
+.project-link {
+    display: inline-block;
+    margin-top: 20px;
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--signal);
+    transition: transform 0.2s ease;
+}
+
+.project-link:hover {
+    transform: translateX(4px);
 }
 
 .technologies {
@@ -484,7 +504,7 @@ footer {
 
 @media (max-width: 800px) {
     :root {
-        --section-padding: 80px 24px;
+        --section-padding: 56px 24px;
     }
 
     .nav-links {
