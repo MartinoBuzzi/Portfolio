@@ -39,12 +39,6 @@ attraverso le euristiche di usabilità di Nielsen.
 - Competenze applicate: UX research, analisi dei problemi di usabilità,
   progettazione di miglioramenti dell'interfaccia
 
-### Arduino Keyboard Project
-Progetto hardware/software basato su Arduino per la realizzazione di
-un'interazione tramite componenti elettronici.
-
-- Tecnologie: Arduino IDE, C/C++, componenti elettronici
-
 ## Percorso
 
 **Laurea Triennale in Scienze della Comunicazione** (2022–2025)
