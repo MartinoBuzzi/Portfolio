@@ -548,3 +548,16 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+.project-links {
+    display: flex;
+    gap: 1.25rem;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+/* Stile per dare più risalto alla Demo Live rispetto al link GitHub */
+.project-link-primary {
+    font-weight: 600;
+    color: var(--color-primary, #0070f3);
+}
