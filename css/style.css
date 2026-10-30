@@ -292,14 +292,27 @@ h1, h2, h3 {
 }
 
 /* =========================
-   SKILLS (Sezione a contrasto per stacco visivo)
+   SKILLS (Sezione a contrasto scuro)
 ========================= */
 
 #skills {
-    background: var(--ink);
+    background-color: var(--ink) !important;
     color: var(--text-on-ink);
-    border-top: 1px solid var(--border);
-    border-bottom: 1px solid var(--border);
+    border-top: 1px solid var(--border-on-ink);
+    border-bottom: 1px solid var(--border-on-ink);
+}
+
+#skills .eyebrow {
+    color: var(--signal);
+}
+
+#skills h2, 
+#skills h3 {
+    color: var(--text-on-ink);
+}
+
+#skills p {
+    color: var(--text-on-ink-muted);
 }
 
 .skills-container {
@@ -309,7 +322,7 @@ h1, h2, h3 {
 }
 
 .skill-card {
-    background: rgba(238, 241, 236, 0.04);
+    background: rgba(238, 241, 236, 0.05);
     border: 1px solid var(--border-on-ink);
     border-radius: 6px;
     padding: 32px 28px;
